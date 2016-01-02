@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var myTextField: UITextField!
     
     @IBAction func taphandler(sender: AnyObject) {
@@ -24,7 +25,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
