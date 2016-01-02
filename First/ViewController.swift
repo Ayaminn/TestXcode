@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var myTextField: UITextField!
+    
+    @IBAction func taphandler(sender: AnyObject) {
+        myTextField.text = "変更されました"
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
